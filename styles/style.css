@@ -1,0 +1,21 @@
+/* Sharder style */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header{
+    height: 850px;
+    width: 100%;
+    background-color: #E5547310;
+    display: flex;
+    position: relative;
+}
+
+img {
+    position: absolute;
+    height: 800px;
+    bottom: 0px;
+    right: 50px;
+}
