@@ -1,21 +1,217 @@
 /* Sharder style */
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
+.primary-button {
+    width: 170px;
+    height: 70px;
+    border: 0px;
+    border-radius: 8px;
+    font-size: 20px;
+    background-color: #E55473;
+    /* font-weight: bold; */
+}
+
+.discription {
+    color: #27272760;
+    font-size: 20px;
+    margin: 0px 0px 30px;
+}
+
 /* Header styles */
-header{
+header {
     height: 850px;
-    width: 100%;
+    width: 1920px;
     background-color: #E5547310;
     display: flex;
     position: relative;
+    padding: 50px 240px;
+    margin: auto;
+    /* padding-left: 240px;
+    padding-right: 240px; */
 }
 
-img {
+header img {
     position: absolute;
     height: 800px;
     bottom: 0px;
-    right: 50px;
+    right: 240px;
+}
+
+.header-text h1 {
+    font-size: 82px;
+    width: 708px;
+    margin-bottom: 30px;
+}
+
+.header-text {
+    margin-top: 150px;
+}
+
+.header-discription {
+    width: 634px;
+}
+
+/* Flower section style */
+.flowers {
+    text-align: center;
+    margin: 100px auto;
+}
+
+.flower-tree {
+    display: flex;
+    justify-content: center;
+    height: 605px;
+    width: 1440px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.flowers h2 {
+    color: #272727;
+    font-size: 60;
+    font-weight: 800;
+    margin: 30px;
+}
+
+.flowers p {
+    width: 954px;
+    margin: 30px auto;
+    letter-spacing: 2px;
+
+}
+
+
+.left-flower,
+.middle-flower,
+.right-flower {
+    position: absolute;
+    width: 464px;
+    height: 538px;
+    border-top-right-radius: 300px;
+    border-top-left-radius: 300px;
+}
+
+.left-flower {
+    background-color: #A7216215;
+    left: 0px;
+}
+
+.middle-flower {
+    background-color: #0597A015;
+
+}
+
+.right-flower {
+    background-color: #477D1115;
+    right: 0px;
+
+}
+
+.left-flower img {
+    position: absolute;
+    bottom: 0px;
+    left: 77px;
+
+}
+
+.middle-flower img {
+    position: absolute;
+    bottom: 20px;
+    left: 47px;
+}
+
+.right-flower img {
+    position: absolute;
+    bottom: 0px;
+    left: 75px;
+}
+
+.flower-tree p {
+    position: absolute;
+    text-decoration: underline;
+    font-size: 24px;
+    font-weight: 700;
+    bottom: -50px;
+    left: -250px;
+    margin: 0px;
+}
+
+/* support section style */
+.supports {
+    width: 1440px;
+    height: 320px;
+    background-color: #27272705;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.supports * {
+    margin: auto;
+}
+
+.supports img {
+    width: 88px;
+    margin-bottom: 20px;
+}
+
+.hot-deal {
+    display: flex;
+    justify-content: space-evenly;
+    width: 1922px;
+    height: 620px;
+    background-color: #E5547310;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.hotdeal-text {
+    margin-top: 200px;
+    /* margin-left: 200px; */
+}
+
+.hot-deal img {
+    margin-top: 100px;
+    /* margin-right: 200px; */
+}
+
+.hotdeal-text p {
+    width: 594px;
+}
+
+.hotdeal-text h1 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.hotdeal-text span {
+    color: #E55473;
+}
+
+/* instagram style */
+.instagram {
+    text-align: center;
+}
+
+.instagram h2 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.instagram p {
+    width: 594px;
+    margin: 30px auto;
+}
+
+.instagram-images img {
+    display: inline-block;
+    width: 342px;
+    margin: 7px;
 }
